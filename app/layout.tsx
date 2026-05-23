@@ -103,8 +103,7 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   verification: {
-    // Add Google/Bing verification codes here when available
-    // google: "xxxx",
+    google: "SshTFIusPgDfLklGf5VDxgoBK9RWMguA-64lEP_S2gw",
   },
 };
 
