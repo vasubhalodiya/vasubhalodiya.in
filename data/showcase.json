@@ -1,0 +1,21 @@
+{
+  "showcases": [
+    {
+      "src": "/assets/images/cinefix_showcase.png",
+      "alt": "Cinefix Showcase"
+    },
+    {
+      "src": "/assets/images/aryx_showcase_v2.png",
+      "alt": "Aryx Showcase"
+    },
+    {
+      "src": "/assets/images/prompt_showcase.png",
+      "alt": "Prompt Showcase"
+    },
+    {
+      "src": "/assets/images/encrypt_showcase.png",
+      "alt": "Encrypt Showcase"
+    }
+  ],
+  "marqueeTracks": [0, 1, 2, 3]
+}

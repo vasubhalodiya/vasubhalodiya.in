@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Aryx CLI",
+    "href": "https://www.npmjs.com/package/aryx-cli",
+    "description": "Your AI terminal buddy - built to experiment and occasionally break things.😄",
+    "stack": ["typescript", "firebase", "react"]
+  },
+  {
+    "name": "Intrex Icon",
+    "href": "https://www.npmjs.com/package/intrex-icon",
+    "description": "Built a lightweight solution for using customizable SVG icons via simple class-based syntax, eliminating complex asset paths in large projects.",
+    "stack": ["javascript"]
+  },
+  {
+    "name": "Encrypt",
+    "href": "https://encrypt.vasuu.in",
+    "description": "Developed a secure password manager web app using React.js with AES encryption and Google Authentication for safe and seamless credential management.",
+    "stack": ["react", "firebase", "tailwindcss"]
+  },
+  {
+    "name": "Prompt",
+    "href": "https://prompt.vasuu.in",
+    "description": "Developed an AI chatbot web app enabling real-time conversational responses with a modern, interactive user interface.",
+    "stack": ["react", "firebase"]
+  },
+  {
+    "name": "Cinefix",
+    "href": "https://cinefix.vasuu.in",
+    "description": "Developed an AI chatbot web app enabling real-time conversational responses with a modern, interactive user interface.",
+    "stack": ["react", "firebase"]
+  }
+]

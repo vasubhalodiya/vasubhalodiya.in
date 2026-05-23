@@ -1,0 +1,20 @@
+[
+  {
+    "time": "May 2025 - Present",
+    "title": "Prolix Technikos",
+    "role": "Frontend Developer",
+    "desc": "Contributing to front-end development using React.js on a real-time café ordering system, focusing on modular component design, multilingual translation features, and UI performance optimization."
+  },
+  {
+    "time": "Sep 2024 - Dec 2024",
+    "title": "Nectar Infoway",
+    "role": "Frontend Developer",
+    "desc": "Designed and developed responsive web applications using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and optimized UI/UX responsiveness."
+  },
+  {
+    "time": "Dec 2023 - Mar 2024",
+    "title": "Keshav Infotech",
+    "role": "Frontend Developer",
+    "desc": "Developed responsive web applications as a frontend intern, focusing on visually appealing designs and layout optimization for seamless cross-device performance."
+  }
+]
