@@ -84,7 +84,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <HugeiconsIcon icon={Calendar04Icon} strokeWidth={2} size={16} />
-            Book call
+            Book cal
           </LinkButton>
         </div>
       </section>
