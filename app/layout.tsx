@@ -23,7 +23,7 @@ const SITE_URL = "https://vasubhalodiya.in";
 const NAME = "Vasu Bhalodiya";
 const TITLE = "Vasu Bhalodiya - Frontend Developer | Crafting Premium Web Experiences";
 const DESCRIPTION =
-  "I'm Vasu Bhalodiya, a Frontend Developer specializing in React, Next.js & TypeScript. Crafting fast, pixel-perfect, and premium web experiences with clean architecture.";
+  "Hey, I'm Vasu Bhalodiya - a Frontend Developer specializing in React, Next.js & TypeScript. Crafting fast, pixel-perfect, and premium web experiences with clean architecture.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
