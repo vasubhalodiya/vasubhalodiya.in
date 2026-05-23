@@ -95,9 +95,9 @@ export default function Home() {
           <HugeiconsIcon icon={Briefcase01Icon} strokeWidth={1.5} size={17} />
           Companies I&apos;ve worked with
         </p> */}
-        <span className="block font-clash-display text-[20px] font-bold leading-none  text-foreground/80 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-full">
+        <h2 className="block font-clash-display text-[20px] font-bold leading-none  text-foreground/80 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-full">
             Experience
-          </span>
+          </h2>
         <div className="group relative flex flex-col gap-4 p-4 pb-0 w-full">
           <div className="relative space-y-8 w-full [&>*:last-child_[data-experience-line]]:hidden">
             {experience.map((item, index) => (

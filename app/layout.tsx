@@ -180,7 +180,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
         <link rel="me" href="https://github.com/vasubhalodiya" />
         <link rel="me" href="https://www.linkedin.com/in/vasubhalodiya" />
         <link rel="me" href="https://x.com/VasuBhalodiya03" />

@@ -77,9 +77,9 @@ export default function ProjectsPage() {
             </svg>
             Back
           </Link>
-          <h2 className="font-cabinet-grotesk text-sm font-semibold tracking-normal text-foreground">
+          <h1 className="font-cabinet-grotesk text-sm font-semibold tracking-normal text-foreground">
             All Projects
-          </h2>
+          </h1>
         </div>
         <section className="mx-auto pt-8">
           <div className="relative">
@@ -95,9 +95,9 @@ export default function ProjectsPage() {
                 <div className="flex flex-col gap-3">
                   <div className="flex justify-between items-center gap-3">
                     <div className="flex flex-wrap items-center gap-2">
-                      <h1 className="flex items-center gap-2 text-base font-semibold tracking-normal text-foreground">
+                      <h2 className="flex items-center gap-2 text-base font-semibold tracking-normal text-foreground">
                         {project.name}
-                      </h1>
+                      </h2>
                       <div className="flex flex-wrap items-center gap-2">
                         {project.stack.map((iconName) => (
                           <div
