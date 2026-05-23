@@ -3,7 +3,7 @@
     "name": "Aryx CLI",
     "href": "https://www.npmjs.com/package/aryx-cli",
     "description": "Your AI terminal buddy - built to experiment and occasionally break things.😄",
-    "stack": ["typescript", "firebase", "react"]
+    "stack": ["typescript", "firebase", "openrouter", "npm"]
   },
   {
     "name": "Intrex Icon",
@@ -13,20 +13,20 @@
   },
   {
     "name": "Encrypt",
-    "href": "https://encrypt.vasuu.in",
+    "href": "https://encrypt.vasubhalodiya.in",
     "description": "Developed a secure password manager web app using React.js with AES encryption and Google Authentication for safe and seamless credential management.",
     "stack": ["react", "firebase", "tailwindcss"]
   },
   {
     "name": "Prompt",
-    "href": "https://prompt.vasuu.in",
+    "href": "https://prompt.vasubhalodiya.in",
     "description": "Developed an AI chatbot web app enabling real-time conversational responses with a modern, interactive user interface.",
     "stack": ["react", "firebase"]
   },
   {
     "name": "Cinefix",
-    "href": "https://cinefix.vasuu.in",
-    "description": "Developed an AI chatbot web app enabling real-time conversational responses with a modern, interactive user interface.",
+    "href": "https://cinefix.vasubhalodiya.in",
+    "description": "Built a movie discovery web app with React.js featuring real-time search, trending titles, and a clean cinematic UI powered by the TMDB API.",
     "stack": ["react", "firebase"]
   }
 ]
