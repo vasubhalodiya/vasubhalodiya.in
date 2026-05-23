@@ -7,20 +7,20 @@ import projects from "@/data/projects.json";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Projects by Vasu Bhalodiya — Aryx CLI, Intrex Icon, Encrypt password manager, Prompt AI chatbot, Cinefix and more. Built with React, Next.js, TypeScript and Firebase.",
+    "Projects by Vasu Bhalodiya - Aryx CLI, Intrex Icon, Encrypt password manager, Prompt AI chatbot, Cinefix and more. Built with React, Next.js, TypeScript and Firebase.",
   alternates: { canonical: "/projects" },
   openGraph: {
-    title: "Projects — Vasu Bhalodiya",
+    title: "Projects - Vasu Bhalodiya",
     description:
-      "Open-source tools and side projects by Vasu Bhalodiya: Aryx CLI, Intrex Icon, Encrypt, Prompt, Cinefix.",
+      "Open-source tools and Independent Builds by Vasu Bhalodiya: Aryx CLI, Intrex Icon, Encrypt, Prompt, Cinefix.",
     url: "/projects",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects — Vasu Bhalodiya",
+    title: "Projects - Vasu Bhalodiya",
     description:
-      "Open-source tools and side projects by Vasu Bhalodiya: Aryx CLI, Intrex Icon, Encrypt, Prompt, Cinefix.",
+      "Open-source tools and Independent Builds by Vasu Bhalodiya: Aryx CLI, Intrex Icon, Encrypt, Prompt, Cinefix.",
   },
 };
 

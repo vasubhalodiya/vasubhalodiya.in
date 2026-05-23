@@ -68,7 +68,7 @@ export default function Home() {
             always push to build something truly polished.
           </p>
           <p>
-            I am probably building something with coffee right now. If you&apos;re up for it, let&apos;s be friends — DM me or email me.
+            I am probably building something with coffee right now. If you&apos;re up for it, let&apos;s be friends - DM me or email me.
           </p>
         </div>
 

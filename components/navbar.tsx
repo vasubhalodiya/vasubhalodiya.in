@@ -228,7 +228,7 @@ export function Navbar() {
       >
         <DockNavLink href="/" label="Home" mouseX={mouseX} icon={Home03Icon} />
         <DockNavLink href="/projects" label="Projects" mouseX={mouseX} icon={Folder02Icon} />
-        <DockNavLink href="/blog" label="Blog" mouseX={mouseX} icon={Book02Icon} />
+        {/* <DockNavLink href="/blog" label="Blog" mouseX={mouseX} icon={Book02Icon} /> */}
         <Divider />
         {socials.map(({ label, href, Icon, navSize }) => (
           <DockExternal

@@ -21,15 +21,15 @@ const clashDisplay = localFont({
 
 const SITE_URL = "https://vasubhalodiya.in";
 const NAME = "Vasu Bhalodiya";
-const TITLE = "Vasu Bhalodiya — Design Engineer & Frontend Developer from India";
+const TITLE = "Vasu Bhalodiya - Frontend Developer | Crafting Premium Web Experiences";
 const DESCRIPTION =
-  "Vasu Bhalodiya is a Design Engineer and Frontend Developer from India building fast, polished products with React, Next.js, and TypeScript. Explore projects, experience, and open-source work.";
+  "I'm Vasu Bhalodiya, a Frontend Developer specializing in React, Next.js & TypeScript. Crafting fast, pixel-perfect, and premium web experiences with clean architecture.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: "%s — Vasu Bhalodiya",
+    template: "%s - Vasu Bhalodiya",
   },
   description: DESCRIPTION,
   applicationName: NAME,
@@ -43,7 +43,6 @@ export const metadata: Metadata = {
     "Vasu Bhalodiya portfolio",
     "Vasu Bhalodiya developer",
     "Vasu Bhalodiya designer",
-    "Design Engineer India",
     "Frontend Developer India",
     "React developer India",
     "Next.js developer",
@@ -76,7 +75,7 @@ export const metadata: Metadata = {
         url: "/vasu.jpg",
         width: 1200,
         height: 630,
-        alt: "Vasu Bhalodiya — Design Engineer & Frontend Developer",
+        alt: "Vasu Bhalodiya Image",
       },
     ],
   },
@@ -124,7 +123,7 @@ const personJsonLd = {
   alternateName: ["Vasu", "vasubhalodiya"],
   url: SITE_URL,
   image: `${SITE_URL}/vasu.jpg`,
-  jobTitle: "Design Engineer & Frontend Developer",
+  jobTitle: "Frontend Developer",
   description: DESCRIPTION,
   gender: "Male",
   nationality: "Indian",
