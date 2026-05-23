@@ -100,8 +100,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/vasu.jpg",
-    apple: "/vasu.jpg",
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   verification: {
     // Add Google/Bing verification codes here when available

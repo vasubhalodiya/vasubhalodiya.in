@@ -28,7 +28,7 @@ export default function Home() {
       {/* Hero */}
       <section className="flex flex-col gap-6 max-w-xl mx-auto px-6">
         <Image
-          src="/vasu.jpg"
+          src="/vasu.jpeg"
           alt="Vasu Bhalodiya"
           width={64}
           height={80}
