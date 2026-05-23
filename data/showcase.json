@@ -1,19 +1,19 @@
 {
   "showcases": [
     {
-      "src": "/assets/images/cinefix_showcase.png",
+      "src": "/assets/images/cinefix_showcase.webp",
       "alt": "Cinefix Showcase"
     },
     {
-      "src": "/assets/images/aryx_showcase_v2.png",
+      "src": "/assets/images/aryx_showcase.webp",
       "alt": "Aryx Showcase"
     },
     {
-      "src": "/assets/images/prompt_showcase.png",
+      "src": "/assets/images/prompt_showcase.webp",
       "alt": "Prompt Showcase"
     },
     {
-      "src": "/assets/images/encrypt_showcase.png",
+      "src": "/assets/images/encrypt_showcase.webp",
       "alt": "Encrypt Showcase"
     }
   ],
