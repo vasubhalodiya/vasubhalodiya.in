@@ -9,7 +9,7 @@ import { LocalTime } from "@/components/local-time";
 import { socials } from "@/constants/socials";
 import experience from "@/data/experience.json";
 import testimonial from "@/data/testimonial.json";
-import { SelectedWork } from "@/components/selected-work";
+
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
@@ -140,8 +140,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Selected Work */}
-      <SelectedWork />
+
 
       {/* Testimonial */}
       <section className="mx-auto flex w-full max-w-xl flex-col gap-6 px-6">
