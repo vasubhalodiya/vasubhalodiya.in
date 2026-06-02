@@ -1,7 +1,7 @@
 [
   {
     "name": "Aryx CLI",
-    "href": "https://www.npmjs.com/package/aryx-cli",
+    "href": "https://aryx.vasubhalodiya.in",
     "description": "Your AI terminal buddy - built to experiment and occasionally break things.😄",
     "stack": ["typescript", "firebase", "openrouter", "npm"]
   },
