@@ -28,7 +28,7 @@ const DISTANCE = 95;
 const SPRING = { mass: 0.1, stiffness: 150, damping: 12 };
 
 const dockItemBaseClass =
-  "relative flex aspect-square items-center justify-center shrink-0 rounded-[15px] cursor-pointer bg-background dark:bg-neutral-900 border shadow-[inset_0_2px_4px_rgba(0,0,0,0.06)] dark:shadow-[inset_0_2px_4px_rgba(0,0,0,0.25)] transition-colors";
+  "relative flex aspect-square items-center justify-center shrink-0 rounded-[10px] cursor-pointer bg-background dark:bg-neutral-900 border shadow-[inset_0_2px_4px_rgba(0,0,0,0.06)] dark:shadow-[inset_0_2px_4px_rgba(0,0,0,0.25)] transition-colors";
 
 const dockItemInactiveClass =
   "text-neutral-500 dark:text-neutral-400 border-border hover:text-accent dark:hover:text-accent hover:border-accent/40";
@@ -224,7 +224,7 @@ export function Navbar() {
       <motion.div
         onMouseMove={(e) => isDesktop && mouseX.set(e.pageX)}
         onMouseLeave={() => mouseX.set(Infinity)}
-        className="items-end justify-center overflow-visible z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 rounded-3xl border border-border bg-background/90 shadow-lg shadow-black/5 backdrop-blur-xl dark:bg-neutral-950/90 dark:shadow-black/20"
+        className="items-end justify-center overflow-visible z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 rounded-2xl border border-border bg-background/90 shadow-lg shadow-black/5 backdrop-blur-xl dark:bg-neutral-950/90 dark:shadow-black/20"
       >
         <DockNavLink href="/" label="Home" mouseX={mouseX} icon={Home03Icon} />
         <DockNavLink href="/projects" label="Projects" mouseX={mouseX} icon={Folder02Icon} />
