@@ -65,6 +65,19 @@
   }
 }
 
+@keyframes shimmer-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-sweep {
+  animation: shimmer-sweep 1.8s ease-in-out infinite;
+}
+
 
 body {
   background: var(--background);

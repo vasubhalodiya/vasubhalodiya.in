@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { ShimmerLine } from "@/components/shimmer";
 
 const TIMEZONE = "Asia/Kolkata";
 const CITY = "Rajkot";
@@ -29,9 +30,13 @@ export function LocalTime() {
     };
   }, []);
 
+  if (!time) {
+    return <ShimmerLine className="h-[18px] w-28" />;
+  }
+
   return (
     <p className="text-sm font-medium tracking-wide text-muted-foreground/80">
-      {time ? `${time} in ${CITY}` : " "}
+      {time} in {CITY}
     </p>
   );
 }

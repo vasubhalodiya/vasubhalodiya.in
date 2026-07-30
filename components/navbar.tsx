@@ -16,8 +16,9 @@ import {
   Home03Icon,
   Folder02Icon,
   Book02Icon,
-  Sun01Icon,
-  Moon02Icon,
+  File02Icon,
+  // Sun01Icon,
+  // Moon02Icon,
 } from "@hugeicons/core-free-icons";
 import { useEffect, useState } from "react";
 import { socials } from "@/constants/socials";
@@ -164,47 +165,48 @@ function DockExternal({
   );
 }
 
-function DockThemeToggle({ mouseX }: { mouseX: MotionValue<number> }) {
-  const { ref, size, iconSize } = useDockIconSizes(mouseX, 19);
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
-  const [hovered, setHovered] = useState(false);
-
-  useEffect(() => {
-    const initTheme = () => {
-      const stored = localStorage.getItem("theme") as "light" | "dark" | null;
-      const initial = stored ?? "dark";
-      setTheme(initial);
-    };
-    initTheme();
-  }, []);
-
-  const toggle = () => {
-    const next = theme === "dark" ? "light" : "dark";
-    setTheme(next);
-    document.documentElement.classList.toggle("dark", next === "dark");
-    localStorage.setItem("theme", next);
-  };
-
-  return (
-    <button onClick={toggle} aria-label="Toggle theme" className="relative p-0">
-      <DockTooltip label={theme === "dark" ? "Light mode" : "Dark mode"} show={hovered} />
-      <motion.div
-        ref={ref}
-        onHoverStart={() => setHovered(true)}
-        onHoverEnd={() => setHovered(false)}
-        style={{ width: size, height: size }}
-        className={dockItemClass}
-      >
-        <motion.div
-          style={{ width: iconSize, height: iconSize }}
-          className="flex items-center justify-center [&_svg]:size-full"
-        >
-          <HugeiconsIcon icon={theme === "dark" ? Sun01Icon : Moon02Icon} strokeWidth={1.5} size={18} />
-        </motion.div>
-      </motion.div>
-    </button>
-  );
-}
+// Theme toggle disabled for now - site is dark-only. Keeping the logic here for future re-enable.
+// function DockThemeToggle({ mouseX }: { mouseX: MotionValue<number> }) {
+//   const { ref, size, iconSize } = useDockIconSizes(mouseX, 19);
+//   const [theme, setTheme] = useState<"light" | "dark">("dark");
+//   const [hovered, setHovered] = useState(false);
+//
+//   useEffect(() => {
+//     const initTheme = () => {
+//       const stored = localStorage.getItem("theme") as "light" | "dark" | null;
+//       const initial = stored ?? "dark";
+//       setTheme(initial);
+//     };
+//     initTheme();
+//   }, []);
+//
+//   const toggle = () => {
+//     const next = theme === "dark" ? "light" : "dark";
+//     setTheme(next);
+//     document.documentElement.classList.toggle("dark", next === "dark");
+//     localStorage.setItem("theme", next);
+//   };
+//
+//   return (
+//     <button onClick={toggle} aria-label="Toggle theme" className="relative p-0">
+//       <DockTooltip label={theme === "dark" ? "Light mode" : "Dark mode"} show={hovered} />
+//       <motion.div
+//         ref={ref}
+//         onHoverStart={() => setHovered(true)}
+//         onHoverEnd={() => setHovered(false)}
+//         style={{ width: size, height: size }}
+//         className={dockItemClass}
+//       >
+//         <motion.div
+//           style={{ width: iconSize, height: iconSize }}
+//           className="flex items-center justify-center [&_svg]:size-full"
+//         >
+//           <HugeiconsIcon icon={theme === "dark" ? Sun01Icon : Moon02Icon} strokeWidth={1.5} size={18} />
+//         </motion.div>
+//       </motion.div>
+//     </button>
+//   );
+// }
 
 function Divider() {
   return (
@@ -224,10 +226,11 @@ export function Navbar() {
       <motion.div
         onMouseMove={(e) => isDesktop && mouseX.set(e.pageX)}
         onMouseLeave={() => mouseX.set(Infinity)}
-        className="items-end justify-center overflow-visible z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 rounded-2xl border border-border bg-background/90 shadow-lg shadow-black/5 backdrop-blur-xl dark:bg-neutral-950/90 dark:shadow-black/20"
+        className="items-end justify-center overflow-visible z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 rounded-2xl border border-border bg-background shadow-lg shadow-black/5 backdrop-blur-xl dark:bg-neutral-950 dark:shadow-black/20"
       >
         <DockNavLink href="/" label="Home" mouseX={mouseX} icon={Home03Icon} />
         <DockNavLink href="/projects" label="Projects" mouseX={mouseX} icon={Folder02Icon} />
+        <DockNavLink href="/resume" label="Resume" mouseX={mouseX} icon={File02Icon} />
         {/* <DockNavLink href="/blog" label="Blog" mouseX={mouseX} icon={Book02Icon} /> */}
         <Divider />
         {socials.map(({ label, href, Icon, navSize }) => (
@@ -240,8 +243,8 @@ export function Navbar() {
             baseIconSize={navSize}
           />
         ))}
-        <Divider />
-        <DockThemeToggle mouseX={mouseX} />
+        {/* <Divider />
+        <DockThemeToggle mouseX={mouseX} /> */}
       </motion.div>
     </div>
   );
