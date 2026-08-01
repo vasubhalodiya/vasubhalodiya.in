@@ -37,7 +37,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-px">
           <div className="flex items-center justify-between gap-2">
-            <h1 className="font-cabinet-grotesk font-medium tracking-normal">
+            <h1 className="font-cabinet-grotesk text-lg font-bold tracking-normal text-foreground">
               Vasu Bhalodiya
             </h1>
             <div className="group/socials flex items-center gap-2 text-accent">

@@ -1,5 +1,11 @@
 [
   {
+    "name": "Eternix",
+    "href": "https://eternix.vasubhalodiya.in",
+    "description": "A full-stack e-commerce platform built from scratch, focused on a fast, clean shopping experience end to end.",
+    "stack": ["react", "node", "mongodb", "razorpay"]
+  },
+  {
     "name": "Aryx CLI",
     "href": "https://aryx.vasubhalodiya.in",
     "description": "Your AI terminal buddy - built to experiment and occasionally break things.😄",

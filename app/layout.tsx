@@ -174,7 +174,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cabinetGrotesk.variable} ${clashDisplay.variable} h-full antialiased`}
+      className={`${cabinetGrotesk.variable} ${clashDisplay.variable} h-dvh antialiased`}
       suppressHydrationWarning
     >
       <head>
@@ -191,7 +191,7 @@ export default function RootLayout({
         />
         <ThemeScript />
       </head>
-      <body className="font-cabinet-grotesk relative min-h-full" suppressHydrationWarning>
+      <body className="font-cabinet-grotesk relative min-h-dvh" suppressHydrationWarning>
         <div className="absolute inset-0 h-27 pointer-events-none">
           <div className="absolute inset-0 z-0 size-full">
             <FlickeringGrid
