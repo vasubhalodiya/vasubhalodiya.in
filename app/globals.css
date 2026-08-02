@@ -78,6 +78,10 @@
   animation: shimmer-sweep 1.8s ease-in-out infinite;
 }
 
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
 
 body {
   background: var(--background);
